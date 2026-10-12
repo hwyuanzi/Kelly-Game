@@ -1,0 +1,232 @@
+--- Hollan-v1/bot.cpp
++++ bots/hollan/bot.cpp
+@@ -32,10 +32,11 @@
+ 
+ namespace hollan {
+ using Money = long long;
+-constexpr int MODEL_COUNT = 10;
+-
+-// Model 0 is the official sample. The others span cautious, aggressive,
+-// passive and opponent-aware families. Each uses only public state.
++constexpr int MODEL_COUNT = 14;
++
++// Ten elementary models span cautious, aggressive, passive and opponent-aware
++// play. Four additional models in Planner predict finite-horizon planning bots.
++// Every policy uses public information only.
+ Money model_bet(int model, double p, Money x, Money y) {
+     if (x <= 0) return 0;
+     const Money limit = x / 5;
+@@ -66,14 +67,18 @@
+     vector<int> lower;
+     vector<double> fraction;
+     vector<double> probability;
+-    vector<vector<double>> value;
+-    vector<double> loss;
++    vector<vector<double>> value, reverse_value;
++    // Modes other than 4 are used only by the reproducible ablation harness.
++    int variant = 4;
++    chrono::steady_clock::time_point deadline = chrono::steady_clock::time_point::max();
++    int observations = 0;
++    vector<double> loss, evidence;
+     vector<bool> unavailable;
+     Money previous_x = 0, previous_y = 0, previous_bet = 0;
+     int previous_round = -1;
+     int resolution = 800, actions = 24;
+     int active = 0;
+-    size_t cache_limit = 160u * 1024u * 1024u;
++    size_t cache_limit = 256u * 1024u * 1024u;
+ 
+     void reset(const State& s) {
+         total = s.my_capital + s.opp_capital;
+@@ -102,7 +107,10 @@
+             }
+         }
+         value.assign(MODEL_COUNT, {});
++        reverse_value.assign(MODEL_COUNT, {});
++        observations = 0;
+         loss.assign(MODEL_COUNT, 0);
++        evidence.assign(MODEL_COUNT, 0);
+         unavailable.assign(MODEL_COUNT, false);
+         loss[0] = -.4;  // a weak sample-Kelly prior; observations dominate it
+         previous_round = -1;
+@@ -131,35 +139,73 @@
+                (1 - p) * interpolate(next, x - min(pot, x));
+     }
+ 
+-    bool prepare(int model, double budget = 8.0) {
+-        if (!value[static_cast<size_t>(model)].empty()) return true;
+-        if (unavailable[static_cast<size_t>(model)]) return false;
++    Money policy(const double* next, Money x, double p, Money b, int count = 24) const {
++        const Money y = total - x, limit = x / 5;
++        Money bet = 0, last = -1;
++        double best = -1;
++        auto consider = [&](Money a) {
++            a = max<Money>(0, min(limit, a));
++            double v = action_value(next, x, y, a, b, p);
++            if (v > best + 1e-14) {best = v; bet = a;}
++        };
++        for (int k = 0; k <= count; ++k) {
++            Money a = limit * k / count;
++            if (a != last) consider(a);
++            last = a;
++        }
++        consider(y - b);
++        return bet;
++    }
++
++    int dependency(int model) const {
++        return model == 10 ? 0 : model == 11 ? 7 : model == 12 ? 10 : 12;
++    }
++
++    Money predict(int model, size_t t, Money x, double p, bool reversed = false) const {
++        if (model < 10) return model_bet(model, p, x, total - x);
++        int base = dependency(model);
++        const auto& tables = reversed ? reverse_value : value;
++        const double* next = tables[static_cast<size_t>(base)].data() + (t + 1) * grid.size();
++        Money other = predict(base, t, total - x, 1 - p, !reversed);
++        return policy(next, x, p, other);
++    }
++
++    bool prepare(int model, double budget = 8.0, bool reversed = false) {
++        auto& tables = reversed ? reverse_value : value;
++        if (!tables[static_cast<size_t>(model)].empty()) return true;
++        if (unavailable[static_cast<size_t>(model)] || chrono::steady_clock::now() >= deadline) return false;
++        // Planning opponents are themselves finite-horizon best responses.
++        // Dependencies strictly decrease, so this recursion always terminates.
++        if (model >= 10 && !prepare(dependency(model), budget, !reversed)) return false;
+         auto started = chrono::steady_clock::now();
+         const size_t width = grid.size(), n = probability.size();
+-        // Bound the total cache to roughly 160 MiB. Rebuilding is rare once
+-        // the opponent's deterministic policy has been identified.
+         size_t used = 0;
+         for (const auto& v : value) used += v.size() * sizeof(double);
++        for (const auto& v : reverse_value) used += v.size() * sizeof(double);
+         const size_t need = (n + 1) * width * sizeof(double);
++        // Never evict a dependency while another table is being computed.
+         if (used + need > cache_limit) {
+-            for (auto& v : value) vector<double>().swap(v);
+-        }
+-        auto& v = value[static_cast<size_t>(model)];
++            unavailable[static_cast<size_t>(model)] = true;
++            return false;
++        }
++        auto& v = tables[static_cast<size_t>(model)];
+         v.resize((n + 1) * width);
+-        for (size_t i = 0; i < width; ++i) v[n * width + i] = static_cast<double>(grid[static_cast<size_t>(i)]) / static_cast<double>(total);
++        for (size_t i = 0; i < width; ++i)
++            v[n * width + i] = static_cast<double>(grid[i]) / static_cast<double>(total);
+         for (size_t t = n; t-- > 0;) {
+-            if (t % 32 == 0 && chrono::duration<double>(chrono::steady_clock::now() - started).count() > budget) {
++            if (t % 16 == 0 && (chrono::steady_clock::now() >= deadline ||
++                chrono::duration<double>(chrono::steady_clock::now() - started).count() > budget)) {
+                 vector<double>().swap(v);
+                 unavailable[static_cast<size_t>(model)] = true;
+                 return false;
+             }
+-            double p = probability[t];
++            double p = reversed ? 1 - probability[t] : probability[t];
+             double* now = v.data() + t * width;
+             const double* next = now + width;
+             now[0] = 0; now[width - 1] = 1;
+             for (size_t i = 1; i + 1 < width; ++i) {
+-                Money x = grid[static_cast<size_t>(i)], y = total - x, limit = x / 5;
+-                Money b = model_bet(model, 1 - p, y, x);
++                Money x = grid[i], y = total - x, limit = x / 5;
++                Money b = predict(model, t, y, 1 - p, !reversed);
+                 double best = -1;
+                 Money last = -1;
+                 for (int k = 0; k <= actions; ++k) {
+@@ -168,10 +214,8 @@
+                     last = a;
+                     best = max(best, action_value(next, x, y, a, b, p));
+                 }
+-                // The clipping kink is often the unique optimal stake.
+                 Money a = max<Money>(0, min(limit, y - b));
+-                best = max(best, action_value(next, x, y, a, b, p));
+-                now[i] = best;
++                now[i] = max(best, action_value(next, x, y, a, b, p));
+             }
+         }
+         return true;
+@@ -187,12 +231,34 @@
+         Money observed = pot - previous_bet;
+         double p = probability[static_cast<size_t>(previous_round)];
+         double scale = max(2.0, .01 * static_cast<double>(previous_y));
++        bool static_exact = false;
++        bool allow_deep = true;
++        double retention = (variant == 1 || variant == 3) ? .985 : .8;
+         for (int m = 0; m < MODEL_COUNT; ++m) {
+-            double prediction = static_cast<double>(model_bet(m, 1 - p, previous_y, previous_x));
++            if (m == 10) {
++                allow_deep = variant != 8 && !(static_exact && active < 10 && observations >= 8);
++            }
++            if (m >= 10 && (!allow_deep || (variant == 7 && m != 10))) continue;
++            if (m >= 10 && (s.time_used > 50 || probability.size() > 4000 || !prepare(dependency(m), 8.0, true))) {
++                loss[static_cast<size_t>(m)] = 1e6;
++                continue;
++            }
++            double prediction = static_cast<double>(predict(m, static_cast<size_t>(previous_round), previous_y, 1 - p, true));
+             double err = max(0.0, abs(prediction - static_cast<double>(observed)) - 1) / scale;
+-            loss[static_cast<size_t>(m)] = .985 * loss[static_cast<size_t>(m)] + min(12.0, err * err);
+-        }
+-        int best = static_cast<int>(min_element(loss.begin(), loss.end()) - loss.begin());
++            loss[static_cast<size_t>(m)] = retention * loss[static_cast<size_t>(m)] + min(12.0, err * err);
++            evidence[static_cast<size_t>(m)] = retention * evidence[static_cast<size_t>(m)] + 1;
++            if (m < 10 && err == 0 && loss[static_cast<size_t>(m)] < 1e-10) static_exact = true;
++        }
++        ++observations;
++        int best = 0;
++        bool gated = variant >= 3;
++        for (int m = 1; m < 14; ++m) {
++            if (m >= 10 && (!allow_deep || (variant == 7 && m != 10))) continue;
++            if (gated && m >= 10 &&
++                (evidence[static_cast<size_t>(m)] < 2.9 || loss[static_cast<size_t>(m)] / max(1.0, evidence[static_cast<size_t>(m)]) > .12)) continue;
++            if (loss[static_cast<size_t>(m)] < loss[static_cast<size_t>(best)]) best = m;
++        }
++        if (gated && active >= 10 && loss[static_cast<size_t>(active)] / max(1.0, evidence[static_cast<size_t>(active)]) > .12) active = 0;
+         if (loss[static_cast<size_t>(best)] + .05 < loss[static_cast<size_t>(active)]) active = best;
+     }
+ 
+@@ -200,6 +266,10 @@
+         if (s.round < 0 || static_cast<size_t>(s.round) >= s.probs.size() ||
+             s.my_capital <= 0 || s.opp_capital <= 0) return 0;
+         if (total != s.my_capital + s.opp_capital || probability.empty() || previous_round >= s.round) reset(s);
++        // Ten seconds for this call and 65 cumulative internal seconds leave
++        // substantial headroom for the referee's I/O-inclusive 120-second clock.
++        deadline = chrono::steady_clock::now() + chrono::duration_cast<chrono::steady_clock::duration>(
++            chrono::duration<double>(min(10.0, max(0.0, 65 - s.time_used))));
+         observe(s);
+         const Money x = s.my_capital, y = s.opp_capital, limit = x / 5;
+         const double p = probability[static_cast<size_t>(s.round)];
+@@ -207,12 +277,12 @@
+         // Bounded safe fallback also handles custom games beyond the official
+         // 2000-round range and machines with little remaining thinking time.
+         if (s.time_used > 65 || probability.size() > 4000 || !prepare(active)) {
+-            Money b = model_bet(active, 1 - p, y, x);
++            Money b = active < 10 ? model_bet(active, 1 - p, y, x) : (prepare(dependency(active), 8.0, true) ? predict(active, static_cast<size_t>(s.round), y, 1 - p, true) : model_bet(0, 1 - p, y, x));
+             double target = min(static_cast<double>(y), (2 * p - 1) * static_cast<double>(x)) - static_cast<double>(b);
+             result = target > 0 ? min(limit, static_cast<Money>(target)) : 0;
+         } else {
+             const double* next = value[static_cast<size_t>(active)].data() + (static_cast<size_t>(s.round) + 1) * grid.size();
+-            Money b = model_bet(active, 1 - p, y, x);
++            Money b = active < 10 ? model_bet(active, 1 - p, y, x) : (prepare(dependency(active), 8.0, true) ? predict(active, static_cast<size_t>(s.round), y, 1 - p, true) : model_bet(0, 1 - p, y, x));
+             double best = -1;
+             auto consider = [&](Money a) {
+                 a = max<Money>(0, min(limit, a));
+@@ -227,6 +297,7 @@
+             Money center = result, radius = max<Money>(1, limit / 64);
+             for (Money a = max<Money>(0, center - radius); a <= min(limit, center + radius); ++a) consider(a);
+         }
++        result = max<Money>(0, min(limit, result));
+         previous_x = x; previous_y = y; previous_bet = result; previous_round = s.round;
+         return result;
+     }
+@@ -240,6 +311,8 @@
+     } catch (const std::exception&) {
+         // Allocation failures on constrained hosts must not forfeit a game.
+         for (auto& v : planner.value) vector<double>().swap(v);
++        for (auto& v : planner.reverse_value) vector<double>().swap(v);
++        planner.probability.clear(); planner.total = 0;
+         double p = (s.round >= 0 && static_cast<size_t>(s.round) < s.probs.size()) ? s.probs[static_cast<size_t>(s.round)] : .5;
+         if (s.role == 'B') p = 1 - p;
+         return hollan::model_bet(7, p, s.my_capital, s.opp_capital);

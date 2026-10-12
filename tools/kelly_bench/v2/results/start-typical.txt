@@ -1,0 +1,4 @@
+Hollan (A) $5,500 – DP response 2 (B) $0
+DP response 2 (A) $5,482 – Hollan (B) $18
+Totals: Hollan $5,518 – DP response 2 $5,482
+Replay: /Users/haowen/Documents/NYU/Fall_2026/Heuristic Problem Solving/Contest/Kelly-Game/results/hollan-v2-typical/replay.html

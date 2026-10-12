@@ -1,0 +1,4 @@
+Hollan (A) $2,500 – Kelly (C++) (B) $0
+Kelly (C++) (A) $845 – Hollan (B) $1,655
+Totals: Hollan $4,155 – Kelly (C++) $845
+Replay: /Users/haowen/Documents/NYU/Fall_2026/Heuristic Problem Solving/Contest/Kelly-Game/results/hollan-final-sample/replay.html

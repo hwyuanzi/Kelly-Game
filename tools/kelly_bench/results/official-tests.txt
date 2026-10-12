@@ -1,0 +1,24 @@
+test_bankruptcy_cap (test_game.Rules.test_bankruptcy_cap) ... ok
+test_config_rejects_invalid (test_game.Rules.test_config_rejects_invalid) ... ok
+test_config_without_round_count (test_game.Rules.test_config_without_round_count) ... ok
+test_conservation (test_game.Rules.test_conservation) ... ok
+test_integer_limits (test_game.Rules.test_integer_limits) ... ok
+test_over_limit_bets_are_lowered (test_game.Rules.test_over_limit_bets_are_lowered) ... ok
+test_sum_of_bets_and_boundary (test_game.Rules.test_sum_of_bets_and_boundary) ... ok
+test_crash_forfeits (test_game.Runner.test_crash_forfeits) ... ok
+test_fresh_draws_in_each_game (test_game.Runner.test_fresh_draws_in_each_game) ... ok
+test_full_match_role_swap_and_conservation (test_game.Runner.test_full_match_role_swap_and_conservation) ... ok
+test_illegal_bet_forfeits (test_game.Runner.test_illegal_bet_forfeits) ... ok
+test_long_config (test_game.Runner.test_long_config) ... ok
+test_over_limit_bet_is_lowered (test_game.Runner.test_over_limit_bet_is_lowered) ... ok
+test_replay_files_written (test_game.Runner.test_replay_files_written) ... ok
+test_startup_is_not_charged (test_game.Runner.test_startup_is_not_charged) ... ok
+test_state_and_history_reach_the_bot (test_game.Runner.test_state_and_history_reach_the_bot) ... ok
+test_timeout_forfeits (test_game.Runner.test_timeout_forfeits) ... ok
+test_cpp_template_plays (test_game.Templates.test_cpp_template_plays) ... ok
+test_julia_template_plays (test_game.Templates.test_julia_template_plays) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 5.021s
+
+OK

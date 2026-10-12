@@ -1,0 +1,19 @@
+6 bots, 15 pairings
+
+[1/15] Kelly (Python) vs Kelly (C++) (competition_2000.txt) ... $0 – $18,000
+[2/15] Kelly (Python) vs Hollan (competition_2000.txt) ... $18,000 – $0
+[3/15] Kelly (Python) vs Conservative (competition_2000.txt) ... $9,000 – $9,000
+[4/15] Kelly (Python) vs Aggressive (competition_2000.txt) ... $18,000 – $0
+[5/15] Kelly (Python) vs Adaptive (competition_2000.txt) ... $0 – $18,000
+[6/15] Kelly (C++) vs Hollan (competition_2000.txt) ... $9,000 – $9,000
+[7/15] Kelly (C++) vs Conservative (competition_2000.txt) ... $9,000 – $9,000
+[8/15] Kelly (C++) vs Aggressive (competition_2000.txt) ... $9,000 – $9,000
+[9/15] Kelly (C++) vs Adaptive (competition_2000.txt) ... $9,000 – $9,000
+[10/15] Hollan vs Conservative (competition_2000.txt) ... $18,000 – $0
+[11/15] Hollan vs Aggressive (competition_2000.txt) ... $9,000 – $9,000
+[12/15] Hollan vs Adaptive (competition_2000.txt) ... $9,000 – $9,000
+[13/15] Conservative vs Aggressive (competition_2000.txt) ... $9,000 – $9,000
+[14/15] Conservative vs Adaptive (competition_2000.txt) ... $9,000 – $9,000
+[15/15] Aggressive vs Adaptive (competition_2000.txt) ... $9,000 – $9,000
+
+Results: results/hollan-real-tournament/20261012-155427/

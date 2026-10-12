@@ -1,0 +1,16 @@
+generation=0 target_share=0.551233
+generation=10 target_share=0.551233
+generation=20 target_share=0.546262
+generation=30 target_share=0.546262
+generation=40 target_share=0.546262
+generation=50 target_share=0.546262
+generation=60 target_share=0.543144
+generation=70 target_share=0.541111
+generation=80 target_share=0.541111
+generation=90 target_share=0.541111
+generation=100 target_share=0.541111
+generation=110 target_share=0.541111
+selected oldscore=0.541111
+selected oldscore=0.542727
+selected oldscore=0.542848
+selected oldscore=0.547062

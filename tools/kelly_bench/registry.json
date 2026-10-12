@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Kelly (Python)",
+    "cwd": "../../bots/samples/kelly-python",
+    "command": [
+      "{python}",
+      "bot.py"
+    ]
+  },
+  {
+    "name": "Kelly (C++)",
+    "cwd": "../../bots/samples/kelly-cpp",
+    "command": [
+      "./bot"
+    ],
+    "build": [
+      "{python}",
+      "build.py"
+    ]
+  },
+  {
+    "name": "Hollan",
+    "cwd": "../../bots/hollan",
+    "command": [
+      "./bot"
+    ],
+    "build": [
+      "{python}",
+      "build.py"
+    ]
+  },
+  {
+    "name": "Conservative",
+    "cwd": ".",
+    "command": [
+      "{python}",
+      "baseline_bot.py",
+      "conservative"
+    ]
+  },
+  {
+    "name": "Aggressive",
+    "cwd": ".",
+    "command": [
+      "{python}",
+      "baseline_bot.py",
+      "aggressive"
+    ]
+  },
+  {
+    "name": "Adaptive",
+    "cwd": ".",
+    "command": [
+      "{python}",
+      "baseline_bot.py",
+      "adaptive"
+    ]
+  }
+]

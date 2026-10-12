@@ -1,0 +1,9 @@
+{
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "warnings": "",
+  "protocol_unchanged": true,
+  "build_script_unchanged": true,
+  "source_sha256": "e8f528769236651c52a694f6a16feeb0ab0e853ded5796403c087a533a4251c2",
+  "v1_source_sha256": "da83ddb7ea59a8a47ff16c46b6d587bdf79fd38e5fdd9bb0f3c1d54748394c18"
+}

@@ -1,0 +1,12 @@
+{
+  "archive": "Hollan_cpp17.zip",
+  "bytes": 7391,
+  "sha256": "3ca39c1f066b3062fe7281a7400b80552867b2ba211973be179678efd201eee2",
+  "files": [
+    "hollan/bot.cpp",
+    "hollan/build.py",
+    "hollan/README.md"
+  ],
+  "source_sha256": "da83ddb7ea59a8a47ff16c46b6d587bdf79fd38e5fdd9bb0f3c1d54748394c18",
+  "clean_extraction_build_and_referee_match": "PASS"
+}

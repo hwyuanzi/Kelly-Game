@@ -1,0 +1,8 @@
+Apple clang version 21.0.0 (clang-2100.3.34.2)
+Target: arm64-apple-darwin27.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+Strict C++17 compilation: PASS, zero warnings.
+Compiler flags: -std=c++17 -O2 -Wall -Wextra -Wconversion -Wpedantic
+Official template communication sections and build.py byte comparison: PASS.

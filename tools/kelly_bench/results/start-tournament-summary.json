@@ -1,0 +1,482 @@
+[
+  {
+    "bots": [
+      "Kelly (Python)",
+      "Kelly (C++)"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Kelly (Python)": 0,
+      "Kelly (C++)": 18000
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Kelly (Python)",
+        "name_B": "Kelly (C++)",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Kelly (C++)",
+        "name_B": "Kelly (Python)",
+        "final_capital_A": 9000,
+        "final_capital_B": 0,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 439771544
+  },
+  {
+    "bots": [
+      "Kelly (Python)",
+      "Hollan"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Kelly (Python)": 18000,
+      "Hollan": 0
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Kelly (Python)",
+        "name_B": "Hollan",
+        "final_capital_A": 9000,
+        "final_capital_B": 0,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Hollan",
+        "name_B": "Kelly (Python)",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 1673934667
+  },
+  {
+    "bots": [
+      "Kelly (Python)",
+      "Conservative"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Kelly (Python)": 9000,
+      "Conservative": 9000
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Kelly (Python)",
+        "name_B": "Conservative",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Conservative",
+        "name_B": "Kelly (Python)",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 1215417503
+  },
+  {
+    "bots": [
+      "Kelly (Python)",
+      "Aggressive"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Kelly (Python)": 18000,
+      "Aggressive": 0
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Kelly (Python)",
+        "name_B": "Aggressive",
+        "final_capital_A": 9000,
+        "final_capital_B": 0,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Aggressive",
+        "name_B": "Kelly (Python)",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 1863948113
+  },
+  {
+    "bots": [
+      "Kelly (Python)",
+      "Adaptive"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Kelly (Python)": 0,
+      "Adaptive": 18000
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Kelly (Python)",
+        "name_B": "Adaptive",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Adaptive",
+        "name_B": "Kelly (Python)",
+        "final_capital_A": 9000,
+        "final_capital_B": 0,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 706083216
+  },
+  {
+    "bots": [
+      "Kelly (C++)",
+      "Hollan"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Kelly (C++)": 9000,
+      "Hollan": 9000
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Kelly (C++)",
+        "name_B": "Hollan",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Hollan",
+        "name_B": "Kelly (C++)",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 1529147703
+  },
+  {
+    "bots": [
+      "Kelly (C++)",
+      "Conservative"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Kelly (C++)": 9000,
+      "Conservative": 9000
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Kelly (C++)",
+        "name_B": "Conservative",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Conservative",
+        "name_B": "Kelly (C++)",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 1029907265
+  },
+  {
+    "bots": [
+      "Kelly (C++)",
+      "Aggressive"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Kelly (C++)": 9000,
+      "Aggressive": 9000
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Kelly (C++)",
+        "name_B": "Aggressive",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Aggressive",
+        "name_B": "Kelly (C++)",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 2095281546
+  },
+  {
+    "bots": [
+      "Kelly (C++)",
+      "Adaptive"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Kelly (C++)": 9000,
+      "Adaptive": 9000
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Kelly (C++)",
+        "name_B": "Adaptive",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Adaptive",
+        "name_B": "Kelly (C++)",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 736014169
+  },
+  {
+    "bots": [
+      "Hollan",
+      "Conservative"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Hollan": 18000,
+      "Conservative": 0
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Hollan",
+        "name_B": "Conservative",
+        "final_capital_A": 9000,
+        "final_capital_B": 0,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Conservative",
+        "name_B": "Hollan",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 261603622
+  },
+  {
+    "bots": [
+      "Hollan",
+      "Aggressive"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Hollan": 9000,
+      "Aggressive": 9000
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Hollan",
+        "name_B": "Aggressive",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Aggressive",
+        "name_B": "Hollan",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 906145146
+  },
+  {
+    "bots": [
+      "Hollan",
+      "Adaptive"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Hollan": 9000,
+      "Adaptive": 9000
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Hollan",
+        "name_B": "Adaptive",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Adaptive",
+        "name_B": "Hollan",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 309517518
+  },
+  {
+    "bots": [
+      "Conservative",
+      "Aggressive"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Conservative": 9000,
+      "Aggressive": 9000
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Conservative",
+        "name_B": "Aggressive",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Aggressive",
+        "name_B": "Conservative",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 962916284
+  },
+  {
+    "bots": [
+      "Conservative",
+      "Adaptive"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Conservative": 9000,
+      "Adaptive": 9000
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Conservative",
+        "name_B": "Adaptive",
+        "final_capital_A": 9000,
+        "final_capital_B": 0,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Adaptive",
+        "name_B": "Conservative",
+        "final_capital_A": 9000,
+        "final_capital_B": 0,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 797726873
+  },
+  {
+    "bots": [
+      "Aggressive",
+      "Adaptive"
+    ],
+    "config": "params/competition_2000.txt",
+    "totals": {
+      "Aggressive": 9000,
+      "Adaptive": 9000
+    },
+    "matches": [
+      {
+        "type": "game_over",
+        "name_A": "Aggressive",
+        "name_B": "Adaptive",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      },
+      {
+        "type": "game_over",
+        "name_A": "Adaptive",
+        "name_B": "Aggressive",
+        "final_capital_A": 0,
+        "final_capital_B": 9000,
+        "errors": null
+      }
+    ],
+    "capital_A": 1000,
+    "capital_B": 8000,
+    "seed": 2085436002
+  }
+]

@@ -1,0 +1,1576 @@
+{
+  "pairings": 58,
+  "games": 116,
+  "rounds": 33340,
+  "errors": 0,
+  "invalid_or_adjusted_bets": 0,
+  "hollan_max_cumulative_seconds": 2.33,
+  "results": [
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 9000,
+        "Kelly (C++)": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "Kelly (C++)",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Kelly (C++)",
+          "name_B": "Hollan",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 584630887,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 9000,
+        "Hollan v1": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "Hollan v1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "Hollan",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 609319492,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 0,
+        "DP response 1": 18000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "DP response 1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 1",
+          "name_B": "Hollan",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        }
+      ],
+      "seed": 1423742532,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 9000,
+        "DP response 2": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "DP response 2",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "Hollan",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 773089100,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 9000,
+        "DP response 3": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "DP response 3",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 3",
+          "name_B": "Hollan",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 991205722,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 9000,
+        "Switching": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "Switching",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Switching",
+          "name_B": "Hollan",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 94223263,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 9000,
+        "Bait": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "Bait",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Bait",
+          "name_B": "Hollan",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 2090907021,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Kelly (C++)": 9000,
+        "Hollan v1": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Kelly (C++)",
+          "name_B": "Hollan v1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "Kelly (C++)",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 1824625044,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Kelly (C++)": 9000,
+        "DP response 1": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Kelly (C++)",
+          "name_B": "DP response 1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 1",
+          "name_B": "Kelly (C++)",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 1503590133,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Kelly (C++)": 9000,
+        "DP response 2": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Kelly (C++)",
+          "name_B": "DP response 2",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "Kelly (C++)",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 181896538,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Kelly (C++)": 0,
+        "DP response 3": 18000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Kelly (C++)",
+          "name_B": "DP response 3",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 3",
+          "name_B": "Kelly (C++)",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        }
+      ],
+      "seed": 977713812,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Kelly (C++)": 9000,
+        "Switching": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Kelly (C++)",
+          "name_B": "Switching",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Switching",
+          "name_B": "Kelly (C++)",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 829815075,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Kelly (C++)": 0,
+        "Bait": 18000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Kelly (C++)",
+          "name_B": "Bait",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Bait",
+          "name_B": "Kelly (C++)",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        }
+      ],
+      "seed": 125055135,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan v1": 9000,
+        "DP response 1": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "DP response 1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 1",
+          "name_B": "Hollan v1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 1405975219,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan v1": 9000,
+        "DP response 2": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "DP response 2",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "Hollan v1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 1065065887,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan v1": 9000,
+        "DP response 3": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "DP response 3",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 3",
+          "name_B": "Hollan v1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 712505854,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan v1": 18000,
+        "Switching": 0
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "Switching",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Switching",
+          "name_B": "Hollan v1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 1835088763,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan v1": 18000,
+        "Bait": 0
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "Bait",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Bait",
+          "name_B": "Hollan v1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 706492777,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 1": 9000,
+        "DP response 2": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 1",
+          "name_B": "DP response 2",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "DP response 1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 2057057569,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 1": 9000,
+        "DP response 3": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 1",
+          "name_B": "DP response 3",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 3",
+          "name_B": "DP response 1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 1689905473,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 1": 18000,
+        "Switching": 0
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 1",
+          "name_B": "Switching",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Switching",
+          "name_B": "DP response 1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 419740135,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 1": 18000,
+        "Bait": 0
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 1",
+          "name_B": "Bait",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Bait",
+          "name_B": "DP response 1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 1905761632,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 2": 9000,
+        "DP response 3": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "DP response 3",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 3",
+          "name_B": "DP response 2",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 194393139,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 2": 18000,
+        "Switching": 0
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "Switching",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Switching",
+          "name_B": "DP response 2",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 301275330,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 2": 9000,
+        "Bait": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "Bait",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Bait",
+          "name_B": "DP response 2",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 1724063538,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 3": 9000,
+        "Switching": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 3",
+          "name_B": "Switching",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Switching",
+          "name_B": "DP response 3",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 501061476,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 3": 18000,
+        "Bait": 0
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 3",
+          "name_B": "Bait",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Bait",
+          "name_B": "DP response 3",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 1533025474,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Switching": 0,
+        "Bait": 18000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Switching",
+          "name_B": "Bait",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Bait",
+          "name_B": "Switching",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        }
+      ],
+      "seed": 1177605520,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 9000,
+        "Kelly (C++)": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "Kelly (C++)",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Kelly (C++)",
+          "name_B": "Hollan",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 1362881991,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 9000,
+        "Hollan v1": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "Hollan v1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "Hollan",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 875627260,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 9000,
+        "DP response 1": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "DP response 1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 1",
+          "name_B": "Hollan",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 1465598398,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 18000,
+        "DP response 2": 0
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "DP response 2",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "Hollan",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 237435647,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 9000,
+        "DP response 3": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "DP response 3",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 3",
+          "name_B": "Hollan",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 1395476213,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 9000,
+        "Switching": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "Switching",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Switching",
+          "name_B": "Hollan",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 804470802,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 9000,
+        "Bait": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "Bait",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Bait",
+          "name_B": "Hollan",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        }
+      ],
+      "seed": 1584379086,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Kelly (C++)": 9000,
+        "Hollan v1": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Kelly (C++)",
+          "name_B": "Hollan v1",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "Kelly (C++)",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        }
+      ],
+      "seed": 1067006940,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Kelly (C++)": 9000,
+        "DP response 1": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Kelly (C++)",
+          "name_B": "DP response 1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 1",
+          "name_B": "Kelly (C++)",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 2064449271,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Kelly (C++)": 9000,
+        "DP response 2": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Kelly (C++)",
+          "name_B": "DP response 2",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "Kelly (C++)",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 998245346,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Kelly (C++)": 9000,
+        "DP response 3": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Kelly (C++)",
+          "name_B": "DP response 3",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 3",
+          "name_B": "Kelly (C++)",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 445495027,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Kelly (C++)": 9000,
+        "Switching": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Kelly (C++)",
+          "name_B": "Switching",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Switching",
+          "name_B": "Kelly (C++)",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 710902993,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Kelly (C++)": 9000,
+        "Bait": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Kelly (C++)",
+          "name_B": "Bait",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Bait",
+          "name_B": "Kelly (C++)",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        }
+      ],
+      "seed": 1938363813,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan v1": 9000,
+        "DP response 1": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "DP response 1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 1",
+          "name_B": "Hollan v1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 2094613692,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan v1": 0,
+        "DP response 2": 18000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "DP response 2",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "Hollan v1",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        }
+      ],
+      "seed": 428281415,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan v1": 9000,
+        "DP response 3": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "DP response 3",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 3",
+          "name_B": "Hollan v1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 839582343,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan v1": 9000,
+        "Switching": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "Switching",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Switching",
+          "name_B": "Hollan v1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 977997951,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan v1": 9000,
+        "Bait": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "Bait",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Bait",
+          "name_B": "Hollan v1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 466229686,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 1": 0,
+        "DP response 2": 18000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 1",
+          "name_B": "DP response 2",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "DP response 1",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        }
+      ],
+      "seed": 1890915308,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 1": 9000,
+        "DP response 3": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 1",
+          "name_B": "DP response 3",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 3",
+          "name_B": "DP response 1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 431134339,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 1": 9000,
+        "Switching": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 1",
+          "name_B": "Switching",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Switching",
+          "name_B": "DP response 1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 1257477001,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 1": 18000,
+        "Bait": 0
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 1",
+          "name_B": "Bait",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Bait",
+          "name_B": "DP response 1",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 799526356,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 2": 9000,
+        "DP response 3": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "DP response 3",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 3",
+          "name_B": "DP response 2",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 272371242,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 2": 9000,
+        "Switching": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "Switching",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Switching",
+          "name_B": "DP response 2",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 675000837,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 2": 18000,
+        "Bait": 0
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "Bait",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Bait",
+          "name_B": "DP response 2",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 801829990,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 3": 9000,
+        "Switching": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 3",
+          "name_B": "Switching",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Switching",
+          "name_B": "DP response 3",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 396165118,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "DP response 3": 9000,
+        "Bait": 9000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "DP response 3",
+          "name_B": "Bait",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Bait",
+          "name_B": "DP response 3",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        }
+      ],
+      "seed": 412481370,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Switching": 0,
+        "Bait": 18000
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Switching",
+          "name_B": "Bait",
+          "final_capital_A": 0,
+          "final_capital_B": 9000,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Bait",
+          "name_B": "Switching",
+          "final_capital_A": 9000,
+          "final_capital_B": 0,
+          "errors": null
+        }
+      ],
+      "seed": 316518567,
+      "config": "params/competition_2000.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 1871,
+        "Hollan v1": 3129
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "Hollan v1",
+          "final_capital_A": 499,
+          "final_capital_B": 2001,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "Hollan v1",
+          "name_B": "Hollan",
+          "final_capital_A": 1128,
+          "final_capital_B": 1372,
+          "errors": null
+        }
+      ],
+      "seed": 1811321247,
+      "config": "params/sample.txt"
+    },
+    {
+      "type": "match_over",
+      "totals": {
+        "Hollan": 5518,
+        "DP response 2": 5482
+      },
+      "matches": [
+        {
+          "type": "game_over",
+          "name_A": "Hollan",
+          "name_B": "DP response 2",
+          "final_capital_A": 5500,
+          "final_capital_B": 0,
+          "errors": null
+        },
+        {
+          "type": "game_over",
+          "name_A": "DP response 2",
+          "name_B": "Hollan",
+          "final_capital_A": 5482,
+          "final_capital_B": 18,
+          "errors": null
+        }
+      ],
+      "seed": 1710624674,
+      "config": "params/typical_100_rounds.txt"
+    }
+  ]
+}

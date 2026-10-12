@@ -1,0 +1,40 @@
+{
+  "zip": "Hollan_cpp17.zip",
+  "bytes": 8041,
+  "sha256": "c3ae77a7e6f79ca3cc2c6521da9dc751753cce96ed44e6f323e6e3cf440f6a6f",
+  "source_sha256": "e8f528769236651c52a694f6a16feeb0ab0e853ded5796403c087a533a4251c2",
+  "contents": [
+    "hollan/bot.cpp",
+    "hollan/build.py",
+    "hollan/README.md"
+  ],
+  "clean_extraction_build": true,
+  "referee_games": [
+    {
+      "role": "A",
+      "rounds": 1,
+      "errors": [
+        null,
+        null
+      ],
+      "capital": [
+        0,
+        9000
+      ],
+      "cumulative_seconds": 0.13366554099775385
+    },
+    {
+      "role": "B",
+      "rounds": 1359,
+      "errors": [
+        null,
+        null
+      ],
+      "capital": [
+        0,
+        9000
+      ],
+      "cumulative_seconds": 1.4320306270965375
+    }
+  ]
+}

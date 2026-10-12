@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Hollan",
+    "cwd": "../../../bots/hollan",
+    "command": [
+      "./bot"
+    ],
+    "build": [
+      "{python}",
+      "build.py"
+    ]
+  },
+  {
+    "name": "Kelly (C++)",
+    "cwd": "../../../bots/samples/kelly-cpp",
+    "command": [
+      "./bot"
+    ],
+    "build": [
+      "{python}",
+      "build.py"
+    ]
+  },
+  {
+    "name": "Hollan v1",
+    "cwd": ".",
+    "command": [
+      "./live_bot",
+      "0"
+    ],
+    "build": [
+      "{python}",
+      "build_live.py"
+    ]
+  },
+  {
+    "name": "DP response 1",
+    "cwd": ".",
+    "command": [
+      "./live_bot",
+      "1"
+    ],
+    "build": [
+      "{python}",
+      "build_live.py"
+    ]
+  },
+  {
+    "name": "DP response 2",
+    "cwd": ".",
+    "command": [
+      "./live_bot",
+      "2"
+    ],
+    "build": [
+      "{python}",
+      "build_live.py"
+    ]
+  },
+  {
+    "name": "DP response 3",
+    "cwd": ".",
+    "command": [
+      "./live_bot",
+      "3"
+    ],
+    "build": [
+      "{python}",
+      "build_live.py"
+    ]
+  },
+  {
+    "name": "Switching",
+    "cwd": ".",
+    "command": [
+      "./live_bot",
+      "4"
+    ],
+    "build": [
+      "{python}",
+      "build_live.py"
+    ]
+  },
+  {
+    "name": "Bait",
+    "cwd": ".",
+    "command": [
+      "./live_bot",
+      "5"
+    ],
+    "build": [
+      "{python}",
+      "build_live.py"
+    ]
+  }
+]

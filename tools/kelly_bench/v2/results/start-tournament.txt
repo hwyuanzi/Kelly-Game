@@ -1,0 +1,32 @@
+8 bots, 28 pairings
+
+[1/28] Hollan vs Kelly (C++) (competition_2000.txt) ... $9,000 – $9,000
+[2/28] Hollan vs Hollan v1 (competition_2000.txt) ... $9,000 – $9,000
+[3/28] Hollan vs DP response 1 (competition_2000.txt) ... $0 – $18,000
+[4/28] Hollan vs DP response 2 (competition_2000.txt) ... $9,000 – $9,000
+[5/28] Hollan vs DP response 3 (competition_2000.txt) ... $9,000 – $9,000
+[6/28] Hollan vs Switching (competition_2000.txt) ... $9,000 – $9,000
+[7/28] Hollan vs Bait (competition_2000.txt) ... $9,000 – $9,000
+[8/28] Kelly (C++) vs Hollan v1 (competition_2000.txt) ... $9,000 – $9,000
+[9/28] Kelly (C++) vs DP response 1 (competition_2000.txt) ... $9,000 – $9,000
+[10/28] Kelly (C++) vs DP response 2 (competition_2000.txt) ... $9,000 – $9,000
+[11/28] Kelly (C++) vs DP response 3 (competition_2000.txt) ... $0 – $18,000
+[12/28] Kelly (C++) vs Switching (competition_2000.txt) ... $9,000 – $9,000
+[13/28] Kelly (C++) vs Bait (competition_2000.txt) ... $0 – $18,000
+[14/28] Hollan v1 vs DP response 1 (competition_2000.txt) ... $9,000 – $9,000
+[15/28] Hollan v1 vs DP response 2 (competition_2000.txt) ... $9,000 – $9,000
+[16/28] Hollan v1 vs DP response 3 (competition_2000.txt) ... $9,000 – $9,000
+[17/28] Hollan v1 vs Switching (competition_2000.txt) ... $18,000 – $0
+[18/28] Hollan v1 vs Bait (competition_2000.txt) ... $18,000 – $0
+[19/28] DP response 1 vs DP response 2 (competition_2000.txt) ... $9,000 – $9,000
+[20/28] DP response 1 vs DP response 3 (competition_2000.txt) ... $9,000 – $9,000
+[21/28] DP response 1 vs Switching (competition_2000.txt) ... $18,000 – $0
+[22/28] DP response 1 vs Bait (competition_2000.txt) ... $18,000 – $0
+[23/28] DP response 2 vs DP response 3 (competition_2000.txt) ... $9,000 – $9,000
+[24/28] DP response 2 vs Switching (competition_2000.txt) ... $18,000 – $0
+[25/28] DP response 2 vs Bait (competition_2000.txt) ... $9,000 – $9,000
+[26/28] DP response 3 vs Switching (competition_2000.txt) ... $9,000 – $9,000
+[27/28] DP response 3 vs Bait (competition_2000.txt) ... $18,000 – $0
+[28/28] Switching vs Bait (competition_2000.txt) ... $0 – $18,000
+
+Results: results/hollan-v2-tournament/20261012-164043/

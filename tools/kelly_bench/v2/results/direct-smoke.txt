@@ -1,0 +1,185 @@
+CONFIG sample n=10 capital=1000/1500
+opp=0 v0=0.57002 v4=0.57002
+opp=1 v0=0.587773 v4=0.587773
+opp=4 v0=0.58768 v4=0.58768
+opp=7 v0=0.5611 v4=0.5611
+opp=5 v0=0.713033 v4=0.713033
+opp=6 v0=0.622393 v4=0.622393
+opp=3 v0=0.578487 v4=0.578487
+opp=10 v0=0.574487 v4=0.575053
+opp=11 v0=0.587773 v4=0.587773
+opp=12 v0=0.710307 v4=0.69478
+opp=13 v0=0.56422 v4=0.56422
+opp=14 v0=0.58024 v4=0.58024
+opp=15 v0=0.556027 v4=0.553507
+opp=16 v0=0.55508 v4=0.55258
+opp=18 v0=0.560247 v4=0.572593
+opp=19 v0=0.539 v4=0.549013
+opp=20 v0=0.626493 v4=0.626493
+opp=21 v0=0.643353 v4=0.63392
+opp=100 v0=0.60482 v4=0.60482
+opp=101 v0=0.61374 v4=0.61298
+opp=102 v0=0.607067 v4=0.606947
+opp=103 v0=0.6186 v4=0.6197
+CONFIG typical_100_rounds n=100 capital=2000/3500
+opp=0 v0=0.567682 v4=0.567682
+opp=1 v0=0.599209 v4=0.599209
+opp=4 v0=0.494442 v4=0.494442
+opp=7 v0=0.54137 v4=0.54137
+opp=5 v0=0.533333 v4=0.533333
+opp=6 v0=0.836321 v4=0.836321
+opp=3 v0=0.498527 v4=0.498527
+opp=10 v0=0.533333 v4=0.516667
+opp=11 v0=0.6 v4=0.6
+opp=12 v0=0.533333 v4=0.499988
+opp=13 v0=0.450491 v4=0.461121
+opp=14 v0=0.615236 v4=0.615236
+opp=15 v0=0.379315 v4=0.4
+opp=16 v0=0.383397 v4=0.416667
+opp=18 v0=0.408227 v4=0.427303
+opp=19 v0=0.400124 v4=0.416927
+opp=20 v0=0.683333 v4=0.683333
+opp=21 v0=0.483333 v4=0.466667
+opp=100 v0=0.45 v4=0.45
+opp=101 v0=0.45 v4=0.45
+opp=102 v0=0.45 v4=0.45
+opp=103 v0=0.45 v4=0.45
+CONFIG competition_2000 n=2000 capital=1000/8000
+opp=0 v0=0.583333 v4=0.583333
+opp=1 v0=0.733333 v4=0.733333
+opp=4 v0=0.633333 v4=0.633333
+opp=7 v0=0.6 v4=0.6
+opp=5 v0=0.716667 v4=0.716667
+opp=6 v0=1 v4=1
+opp=3 v0=0.616667 v4=0.616667
+opp=10 v0=0.666667 v4=0.666667
+opp=11 v0=0.55 v4=0.583333
+opp=12 v0=0.733333 v4=0.7
+opp=13 v0=0.633333 v4=0.65
+opp=14 v0=0.683333 v4=0.683333
+opp=15 v0=0.533333 v4=0.55
+opp=16 v0=0.55 v4=0.55
+opp=18 v0=0.533333 v4=0.583333
+opp=19 v0=0.566667 v4=0.616667
+opp=20 v0=0.666667 v4=0.666667
+opp=21 v0=0.666667 v4=0.666667
+opp=100 v0=0.7 v4=0.7
+opp=101 v0=0.666667 v4=0.666667
+opp=102 v0=0.633333 v4=0.633333
+opp=103 v0=0.683333 v4=0.683333
+SUMMARY seed=222 scenarios=3 pairs_per_scenario=30
+opp=0 variant=0 n=90 score=0.5736784 delta=0.0000000 ci95=0.0000000
+opp=0 variant=4 n=90 score=0.5736784 delta=0.0000000 ci95=0.0000000
+opp=1 variant=0 n=90 score=0.6401053 delta=0.0000000 ci95=0.0000000
+opp=1 variant=4 n=90 score=0.6401053 delta=0.0000000 ci95=0.0000000
+opp=4 variant=0 n=90 score=0.5718186 delta=0.0000000 ci95=0.0000000
+opp=4 variant=4 n=90 score=0.5718186 delta=0.0000000 ci95=0.0000000
+opp=7 variant=0 n=90 score=0.5674899 delta=0.0000000 ci95=0.0000000
+opp=7 variant=4 n=90 score=0.5674899 delta=0.0000000 ci95=0.0000000
+opp=5 variant=0 n=90 score=0.6543444 delta=0.0000000 ci95=0.0000000
+opp=5 variant=4 n=90 score=0.6543444 delta=0.0000000 ci95=0.0000000
+opp=6 variant=0 n=90 score=0.8195715 delta=0.0000000 ci95=0.0000000
+opp=6 variant=4 n=90 score=0.8195715 delta=0.0000000 ci95=0.0000000
+opp=3 variant=0 n=90 score=0.5645602 delta=0.0000000 ci95=0.0000000
+opp=3 variant=4 n=90 score=0.5645602 delta=0.0000000 ci95=0.0000000
+opp=10 variant=0 n=90 score=0.5914956 delta=0.0000000 ci95=0.0000000
+opp=10 variant=4 n=90 score=0.5861289 delta=-0.0053667 ci95=0.0109010
+opp=11 variant=0 n=90 score=0.5792578 delta=0.0000000 ci95=0.0000000
+opp=11 variant=4 n=90 score=0.5903689 delta=0.0111111 ci95=0.0217778
+opp=12 variant=0 n=90 score=0.6589911 delta=0.0000000 ci95=0.0000000
+opp=12 variant=4 n=90 score=0.6315893 delta=-0.0274018 ci95=0.0345773
+opp=13 variant=0 n=90 score=0.5493481 delta=0.0000000 ci95=0.0000000
+opp=13 variant=4 n=90 score=0.5584471 delta=0.0090990 ci95=0.0158723
+opp=14 variant=0 n=90 score=0.6262699 delta=0.0000000 ci95=0.0000000
+opp=14 variant=4 n=90 score=0.6262699 delta=0.0000000 ci95=0.0000000
+opp=15 variant=0 n=90 score=0.4895584 delta=0.0000000 ci95=0.0000000
+opp=15 variant=4 n=90 score=0.5011689 delta=0.0116105 ci95=0.0301647
+opp=16 variant=0 n=90 score=0.4961590 delta=0.0000000 ci95=0.0000000
+opp=16 variant=4 n=90 score=0.5064156 delta=0.0102566 ci95=0.0219396
+opp=18 variant=0 n=90 score=0.5006024 delta=0.0000000 ci95=0.0000000
+opp=18 variant=4 n=90 score=0.5277432 delta=0.0271408 ci95=0.0378284
+opp=19 variant=0 n=90 score=0.5019303 delta=0.0000000 ci95=0.0000000
+opp=19 variant=4 n=90 score=0.5275358 delta=0.0256055 ci95=0.0266602
+opp=20 variant=0 n=90 score=0.6588311 delta=0.0000000 ci95=0.0000000
+opp=20 variant=4 n=90 score=0.6588311 delta=0.0000000 ci95=0.0000000
+opp=21 variant=0 n=90 score=0.5977844 delta=0.0000000 ci95=0.0000000
+opp=21 variant=4 n=90 score=0.5890844 delta=-0.0087000 ci95=0.0246818
+opp=100 variant=0 n=90 score=0.5849400 delta=0.0000000 ci95=0.0000000
+opp=100 variant=4 n=90 score=0.5849400 delta=0.0000000 ci95=0.0000000
+opp=101 variant=0 n=90 score=0.5768022 delta=0.0000000 ci95=0.0000000
+opp=101 variant=4 n=90 score=0.5765489 delta=-0.0002533 ci95=0.0009086
+opp=102 variant=0 n=90 score=0.5634667 delta=0.0000000 ci95=0.0000000
+opp=102 variant=4 n=90 score=0.5634267 delta=-0.0000400 ci95=0.0002402
+opp=103 variant=0 n=90 score=0.5839778 delta=0.0000000 ci95=0.0000000
+opp=103 variant=4 n=90 score=0.5843444 delta=0.0003667 ci95=0.0006630
+PRED opp=0 variant=0 observations=11772 mae_limit=0.0000000
+PRED opp=0 variant=4 observations=11772 mae_limit=0.0000000
+PRED opp=1 variant=0 observations=23747 mae_limit=0.0005690
+PRED opp=1 variant=4 observations=23747 mae_limit=0.0005690
+PRED opp=4 variant=0 observations=4098 mae_limit=0.0152571
+PRED opp=4 variant=4 observations=4098 mae_limit=0.0152571
+PRED opp=7 variant=0 observations=12569 mae_limit=0.0021592
+PRED opp=7 variant=4 observations=12569 mae_limit=0.0021592
+PRED opp=5 variant=0 observations=3913 mae_limit=0.0076668
+PRED opp=5 variant=4 observations=3913 mae_limit=0.0076668
+PRED opp=6 variant=0 observations=48135 mae_limit=0.0007479
+PRED opp=6 variant=4 observations=48135 mae_limit=0.0007479
+PRED opp=3 variant=0 observations=4384 mae_limit=0.0025478
+PRED opp=3 variant=4 observations=4384 mae_limit=0.0025478
+PRED opp=10 variant=0 observations=20286 mae_limit=0.0066463
+PRED opp=10 variant=4 observations=20265 mae_limit=0.0031776
+PRED opp=11 variant=0 observations=5543 mae_limit=0.1180586
+PRED opp=11 variant=4 observations=5421 mae_limit=0.0704259
+PRED opp=12 variant=0 observations=12474 mae_limit=0.2931067
+PRED opp=12 variant=4 observations=11181 mae_limit=0.1816608
+PRED opp=13 variant=0 observations=5409 mae_limit=0.0900303
+PRED opp=13 variant=4 observations=6059 mae_limit=0.1098066
+PRED opp=14 variant=0 observations=13136 mae_limit=0.0227503
+PRED opp=14 variant=4 observations=13137 mae_limit=0.0228080
+PRED opp=15 variant=0 observations=5953 mae_limit=0.0965487
+PRED opp=15 variant=4 observations=5208 mae_limit=0.0124975
+PRED opp=16 variant=0 observations=11028 mae_limit=0.0681912
+PRED opp=16 variant=4 observations=10333 mae_limit=0.0507531
+PRED opp=18 variant=0 observations=13475 mae_limit=0.0704133
+PRED opp=18 variant=4 observations=9719 mae_limit=0.0072236
+PRED opp=19 variant=0 observations=6425 mae_limit=0.0962645
+PRED opp=19 variant=4 observations=8370 mae_limit=0.0062914
+PRED opp=20 variant=0 observations=4854 mae_limit=0.1469364
+PRED opp=20 variant=4 observations=4897 mae_limit=0.0850973
+PRED opp=21 variant=0 observations=4152 mae_limit=0.6233724
+PRED opp=21 variant=4 observations=4314 mae_limit=0.5925098
+PRED opp=100 variant=0 observations=3763 mae_limit=0.1112631
+PRED opp=100 variant=4 observations=3760 mae_limit=0.1144977
+PRED opp=101 variant=0 observations=3613 mae_limit=0.1278377
+PRED opp=101 variant=4 observations=3582 mae_limit=0.1365888
+PRED opp=102 variant=0 observations=3366 mae_limit=0.1493699
+PRED opp=102 variant=4 observations=3448 mae_limit=0.1576840
+PRED opp=103 variant=0 observations=3497 mae_limit=0.1539433
+PRED opp=103 variant=4 observations=3590 mae_limit=0.1745441
+ABLATION opp=0 v4_minus=0 n=90 delta=0.0000000 ci95=0.0000000
+ABLATION opp=1 v4_minus=0 n=90 delta=0.0000000 ci95=0.0000000
+ABLATION opp=3 v4_minus=0 n=90 delta=0.0000000 ci95=0.0000000
+ABLATION opp=4 v4_minus=0 n=90 delta=0.0000000 ci95=0.0000000
+ABLATION opp=5 v4_minus=0 n=90 delta=0.0000000 ci95=0.0000000
+ABLATION opp=6 v4_minus=0 n=90 delta=0.0000000 ci95=0.0000000
+ABLATION opp=7 v4_minus=0 n=90 delta=0.0000000 ci95=0.0000000
+ABLATION opp=10 v4_minus=0 n=90 delta=-0.0053667 ci95=0.0109010
+ABLATION opp=11 v4_minus=0 n=90 delta=0.0111111 ci95=0.0217778
+ABLATION opp=12 v4_minus=0 n=90 delta=-0.0274018 ci95=0.0345773
+ABLATION opp=13 v4_minus=0 n=90 delta=0.0090990 ci95=0.0158723
+ABLATION opp=14 v4_minus=0 n=90 delta=0.0000000 ci95=0.0000000
+ABLATION opp=15 v4_minus=0 n=90 delta=0.0116105 ci95=0.0301647
+ABLATION opp=16 v4_minus=0 n=90 delta=0.0102566 ci95=0.0219396
+ABLATION opp=18 v4_minus=0 n=90 delta=0.0271408 ci95=0.0378284
+ABLATION opp=19 v4_minus=0 n=90 delta=0.0256055 ci95=0.0266602
+ABLATION opp=20 v4_minus=0 n=90 delta=0.0000000 ci95=0.0000000
+ABLATION opp=21 v4_minus=0 n=90 delta=-0.0087000 ci95=0.0246818
+ABLATION opp=100 v4_minus=0 n=90 delta=0.0000000 ci95=0.0000000
+ABLATION opp=101 v4_minus=0 n=90 delta=-0.0002533 ci95=0.0009086
+ABLATION opp=102 v4_minus=0 n=90 delta=-0.0000400 ci95=0.0002402
+ABLATION opp=103 v4_minus=0 n=90 delta=0.0003667 ci95=0.0006630
+ALL variant=0 n=90 score=0.5886810 delta=0.0000000 ci95=0.0000000
+HARD variant=0 n=90 score=0.4970625 delta=0.0000000 ci95=0.0000000
+ALL variant=4 n=90 score=0.5911096 delta=0.0024286 ci95=0.0037494
+HARD variant=4 n=90 score=0.5157159 delta=0.0186533 ci95=0.0155583
+CACHE hits=0 directly_verified=0
